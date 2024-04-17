@@ -1,0 +1,16 @@
+.wrapper-card {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  padding: 0px 12px 12px;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+ul {
+  margin-bottom: 16px;
+  padding: 0px 32px;
+}

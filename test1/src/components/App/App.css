@@ -1,0 +1,19 @@
+.cards-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  gap: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  .cards-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards-wrapper {
+    flex-direction: row;
+  }
+}
